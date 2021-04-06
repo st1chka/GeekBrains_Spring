@@ -29,7 +29,7 @@ public class FirstServlet extends HttpServlet {
         Product basket3 = new Product(3, "Апельсин", 15);
         Product basket4 = new Product(4, "Картошка", 6);
         Product basket5 = new Product(5, "Помидор", 10);
-        Product basket6 = new Product(6, "Рукала", 14);
+        Product basket6 = new Product(6, "Руккола", 14);
         Product basket7 = new Product(7, "Мандарин", 30);
         Product basket8 = new Product(8, "Молоко", 30);
         Product basket9 = new Product(9, "Хлеб", 80);
