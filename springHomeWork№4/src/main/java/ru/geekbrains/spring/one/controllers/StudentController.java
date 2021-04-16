@@ -65,12 +65,12 @@ public class StudentController {
     }
     @GetMapping("/students/plus/{id}")
     public String plusStudentScore(@PathVariable Long id) {
-        studentService.plusStudentScore(id);
+        studentService.plusScore(id);
         return "redirect:/";
     }
     @GetMapping("/students/minus/{id}")
     public String minusStudentScore(@PathVariable Long id) {
-        studentService.minusStudentScore(id);
+        studentService.minusScore(id);
         return "redirect:/";
     }
 }

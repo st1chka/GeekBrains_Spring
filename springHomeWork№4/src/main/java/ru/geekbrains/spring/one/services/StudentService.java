@@ -26,6 +26,7 @@ public class StudentService {
         return studentRepository.findOneById(id);
     }
 
+
     public void save(Student student) {
         studentRepository.save(student);
     }
@@ -34,12 +35,33 @@ public class StudentService {
         studentRepository.deleteById(id);
     }
 
-    public void minusStudentScore(Long id){
-        studentRepository.minusScore(id);
+//    public void minusStudentScore(Long id){
+//
+//    }
+//
+//    public void plusStudentScore(Long id){
+//       plusScore(id);
+//    }
+
+
+    public Optional<Object> plusScore(Long id) {
+        for (Student student : studentRepository.findAll()) {
+            if (student.getId().equals(id) && student.getScore() >= 100) {
+                return Optional.empty();
+            }
+            student.setScore(student.getScore() + 1);
+        }
+        return null;
     }
 
-    public void plusStudentScore(Long id){
-        studentRepository.plusScore(id);
+    public Optional<Object> minusScore(Long id) {
+        for (Student student : studentRepository.findAll()) {
+            if (student.getId().equals(id) && student.getScore() <= 0) {
+                return Optional.empty();
+            }
+            student.setScore(student.getScore() - 1);
+        }
+        return null;
     }
 
     public double getAverageScore() {

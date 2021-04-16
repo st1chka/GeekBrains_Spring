@@ -13,6 +13,14 @@ import java.util.Optional;
 public class StudentRepository {
     private List<Student> students;
 
+//    public List<Student> getStudents() {
+//        return students;
+//    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
     @PostConstruct
     public void init() {
         students = new ArrayList<>(Arrays.asList(
@@ -40,24 +48,7 @@ public class StudentRepository {
         return Optional.empty();
     }
 
-    public void plusScore(Long id){
-        for (Student student : students) {
-            if (student.getId().equals(id)){
-                student.setScore(student.getScore() + 1);
-            }
-        }
-    }
-    public Optional<Object> minusScore(Long id){
-        for (Student student : students) {
-            if (student.getId().equals(id)){
-                if (student.getScore()<=0 || student.getScore()>=100 ){
-                    return Optional.empty() ;
-                }
-                student.setScore(student.getScore() - 1);
-            }
-        }
-        return null;
-    }
+
 
 
     public void deleteById(Long id) {
