@@ -44,24 +44,23 @@ public class StudentService {
 //    }
 
 
-    public Optional<Object> plusScore(Long id) {
+    public void plusScore(Long id) {
         for (Student student : studentRepository.findAll()) {
             if (student.getId().equals(id) && student.getScore() >= 100) {
-                return Optional.empty();
+                return;
             }
             student.setScore(student.getScore() + 1);
         }
-        return null;
     }
 
-    public Optional<Object> minusScore(Long id) {
+    public void minusScore(Long id) {
         for (Student student : studentRepository.findAll()) {
             if (student.getId().equals(id) && student.getScore() <= 0) {
-                return Optional.empty();
+                return;
             }
             student.setScore(student.getScore() - 1);
         }
-        return null;
+
     }
 
     public double getAverageScore() {
