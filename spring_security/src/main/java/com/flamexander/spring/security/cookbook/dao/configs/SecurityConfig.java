@@ -29,7 +29,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/admin/**").hasAnyAuthority(
                 "PERMISSION_CREATE_USERS",
                 "PERMISSION_MODIFY_PRODUCTS")
-                .anyRequest().permitAll()
                 .and()
                 .formLogin();
     }

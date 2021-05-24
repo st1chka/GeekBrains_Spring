@@ -21,5 +21,4 @@ public class MarketError {
         this.messages = new ArrayList<>(messages);
         this.timestamp = new Date();
     }
-
 }

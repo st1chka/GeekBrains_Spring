@@ -1,26 +1,19 @@
 package ru.geekbrains.mai.market.maimarket.conrollers;
 
-import lombok.RequiredArgsConstructor;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.mai.market.maimarket.dtos.ProductDto;
 import ru.geekbrains.mai.market.maimarket.error_hendling.InvalidDataException;
-import ru.geekbrains.mai.market.maimarket.error_hendling.MarketError;
 import ru.geekbrains.mai.market.maimarket.error_hendling.ResourceNotFoundException;
 import ru.geekbrains.mai.market.maimarket.models.Product;
 import ru.geekbrains.mai.market.maimarket.services.ProductService;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 @RestController
@@ -38,7 +31,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ProductDto getOneProductById(@PathVariable Long id) {
-        Product product = productService.findById(id).orElseThrow(() -> new ResourceNotFoundException("Товар не существует с id: " + id));
+        Product product = productService.findById(id).orElseThrow(() -> new ResourceNotFoundException("Product doesn't exists id: " + id));
         return new ProductDto(product);
     }
 
