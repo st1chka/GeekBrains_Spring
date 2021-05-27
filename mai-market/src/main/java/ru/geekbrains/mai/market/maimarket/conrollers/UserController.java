@@ -1,8 +1,10 @@
 package ru.geekbrains.mai.market.maimarket.conrollers;
 
 import lombok.RequiredArgsConstructor;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
+import ru.geekbrains.mai.market.maimarket.AOP.AppAround;
 import ru.geekbrains.mai.market.maimarket.dtos.RegistrationUserDto;
 import ru.geekbrains.mai.market.maimarket.dtos.UserDto;
 import ru.geekbrains.mai.market.maimarket.error_hendling.ResourceNotFoundException;
@@ -12,6 +14,8 @@ import ru.geekbrains.mai.market.maimarket.repositories.UserRepository;
 import ru.geekbrains.mai.market.maimarket.services.UserService;
 
 import java.security.Principal;
+import java.util.HashSet;
+import java.util.Iterator;
 
 @RestController
 @RequestMapping("/api/v1/users")
@@ -20,6 +24,7 @@ public class UserController {
     private final PasswordEncoder passwordEncoder;
     private final UserService userService;
     private final UserRepository userRepository;
+    private  ProceedingJoinPoint proceedingJoinPoint;
 
 
     @GetMapping("/me")
@@ -33,4 +38,5 @@ public class UserController {
         registrationUserDto.setPassword(passwordEncoder.encode(registrationUserDto.getPassword()));
         return userService.createNewUser(registrationUserDto);
     }
+
 }
