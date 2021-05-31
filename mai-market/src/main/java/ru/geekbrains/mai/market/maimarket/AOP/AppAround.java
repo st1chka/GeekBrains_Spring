@@ -31,25 +31,16 @@ public class AppAround {
         return userServiceTotalDuration;
     }
 
-    public void setUserServiceTotalDuration(long userServiceTotalDuration) {
-        this.userServiceTotalDuration = userServiceTotalDuration;
-    }
-
     public long getOrderServiceTotalDuration() {
         return orderServiceTotalDuration;
     }
 
-    public void setOrderServiceTotalDuration(long orderServiceTotalDuration) {
-        this.orderServiceTotalDuration = orderServiceTotalDuration;
-    }
 
     public long getProductServiceTotalDuration() {
         return productServiceTotalDuration;
     }
 
-    public void setProductServiceTotalDuration(long productServiceTotalDuration) {
-        this.productServiceTotalDuration = productServiceTotalDuration;
-    }
+
 
     @Around("execution(public * ru.geekbrains.mai.market.maimarket.services.OrderService.*(..))")
     public Object timeOrderService(ProceedingJoinPoint proceedingJoinPoint) throws Throwable{

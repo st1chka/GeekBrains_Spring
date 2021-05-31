@@ -38,7 +38,7 @@ angular.module('app').controller('productsController', function ($scope, $http, 
             url: contextPath + '/api/v1/cart/add/' + productId,
             method: 'GET'
         }).then(function (response) {
-            $scope.showCart();
+            // $scope.showCart();
         });
     }
 

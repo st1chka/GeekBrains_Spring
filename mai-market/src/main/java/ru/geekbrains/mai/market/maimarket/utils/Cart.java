@@ -2,13 +2,15 @@ package ru.geekbrains.mai.market.maimarket.utils;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
-import ru.geekbrains.mai.market.maimarket.error_hendling.ResourceNotFoundException;
+import org.springframework.web.context.WebApplicationContext;
 import ru.geekbrains.mai.market.maimarket.models.OrderItem;
 import ru.geekbrains.mai.market.maimarket.models.Product;
-import ru.geekbrains.mai.market.maimarket.services.ProductService;
 
 import javax.annotation.PostConstruct;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.*;
 
@@ -16,28 +18,30 @@ import java.util.*;
 @Component
 @Data
 @RequiredArgsConstructor
-public class Cart {
-    private final ProductService productService;
+@Scope (value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
+
+public class Cart implements Serializable {
+
     private List<OrderItem> items;
     private BigDecimal sum;
+    private Product product;
 
     @PostConstruct
     public void init() {
         items = new ArrayList<>();
     }
 
-    public void addToCart(Long id) {
+    public void addToCart(Product product, Long id) {
         for (OrderItem orderItem : items) {
-            if (orderItem.getProduct().getId().equals(id)) {
+            if (orderItem.getProduct().getId().equals(product.getId())) {
                 orderItem.incrementQuantity();
                 recalculate();
                 return;
             }
         }
-
-        Product product = productService.findById(id).orElseThrow(() -> new ResourceNotFoundException("Product doesn't exists id: " + id + " (add to cart)"));
-        items.add(new OrderItem(product));
+       items.add(new OrderItem(product));
         recalculate();
+
     }
 
     public void clear() {
@@ -54,5 +58,9 @@ public class Cart {
 
     public List<OrderItem> getItems() {
         return Collections.unmodifiableList(items);
+    }
+
+    public Product getProduct(Product product) {
+        return this.product;
     }
 }
