@@ -64,7 +64,14 @@
       <recent name="ru.geekbrains.mai.market.maimarket.error_hendling" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MaiMarketApplication">
+    <configuration name="MaiMarketApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="GeekBrains_Spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.mai.market.maimarket.MaiMarketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaiMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mai-market" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.mai.market.maimarket.MaiMarketApplication" />
