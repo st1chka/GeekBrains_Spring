@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873c1109-ff1d-486d-8e4f-b49c5267d796" name="Default Changelist" comment="add packaging war v3.0">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SimpleServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SimpleServlet_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="873c1109-ff1d-486d-8e4f-b49c5267d796" name="Default Changelist" comment="add packaging war v3.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +39,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -118,7 +116,7 @@
       <workItem from="1623179131248" duration="1471000" />
       <workItem from="1623236592045" duration="5739000" />
       <workItem from="1623309747623" duration="1573000" />
-      <workItem from="1623402950403" duration="783000" />
+      <workItem from="1623402950403" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="addOrder">
       <created>1621862093816</created>
@@ -239,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623403628170</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add packaging war v3.0">
+      <created>1623403929569</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1623403929569</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
