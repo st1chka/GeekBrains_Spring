@@ -13,6 +13,5 @@ public class ServingWebContentApplication {
         app.setDefaultProperties(Collections
                 .singletonMap("server.port", "8085"));
         app.run(args);
-
     }
 }
