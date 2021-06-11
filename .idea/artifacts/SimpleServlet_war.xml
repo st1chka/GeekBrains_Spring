@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="SimpleServlet-1.0-SNAPSHOT.war">
+    <root id="archive" name="and_test.war">
       <element id="artifact" artifact-name="SimpleServlet:war exploded" />
     </root>
   </artifact>

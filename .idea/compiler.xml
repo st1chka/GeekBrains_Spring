@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="GeekBrains_Spring" target="1.7" />
-      <module name="SimpleServlet" target="9" />
+      <module name="SimpleServlet" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
