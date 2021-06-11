@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873c1109-ff1d-486d-8e4f-b49c5267d796" name="Default Changelist" comment="add packaging war v3.0" />
+    <list default="true" id="db519b5a-4fdc-4461-bd16-3071d40fa668" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,69 +13,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1rvhBHMiQS3jEVJ4OfmehConX5j" />
+  <component name="ProjectId" id="1tnWfpozRUIb40ItHv9vQrHUL0g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\st1ch\Documents\GitHub\GeekBrains_Spring\mai-market\src\main\resources\static" />
-      <recent name="C:\Users\st1ch\Documents\GitHub\GeekBrains_Spring\mai-market\src\main\java\ru\geekbrains\mai\market\maimarket" />
-      <recent name="C:\Users\st1ch\Documents\GitHub\GeekBrains_Spring\mai-market\src\main\resources" />
-      <recent name="C:\Users\st1ch\Documents\GitHub\GeekBrains_Spring\mai-market\src\main\java\ru\geekbrains\mai\market\maimarket\conrollers" />
-      <recent name="C:\Users\st1ch\Documents\GitHub\GeekBrains_Spring\mai-market\src\main\java\ru\geekbrains\mai\market\maimarket\dtos" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ru.geekbrains.mai.market.maimarket" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.geekbrains.mai.market.maimarket.utils" />
-      <recent name="ru.geekbrains.mai.market.maimarket.repositories" />
-      <recent name="ru.geekbrains.mai.market.maimarket.dtos" />
-      <recent name="ru.geekbrains.mai.market.maimarket.models" />
-      <recent name="ru.geekbrains.mai.market.maimarket.error_hendling" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\st1ch\Documents\AndersenV2.0\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MaiMarketApplication">
-    <configuration name="MaiMarketApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="GeekBrains_Spring" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.mai.market.maimarket.MaiMarketApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaiMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mai-market" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.mai.market.maimarket.MaiMarketApplication" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,194 +58,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="873c1109-ff1d-486d-8e4f-b49c5267d796" name="Default Changelist" comment="" />
-      <created>1619862334760</created>
+      <changelist id="db519b5a-4fdc-4461-bd16-3071d40fa668" name="Default Changelist" comment="" />
+      <created>1623405441312</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619862334760</updated>
-      <workItem from="1619862336018" duration="15937000" />
-      <workItem from="1619944015606" duration="2806000" />
-      <workItem from="1620029457511" duration="5507000" />
-      <workItem from="1620038920623" duration="4826000" />
-      <workItem from="1620119002761" duration="13688000" />
-      <workItem from="1620409896478" duration="14403000" />
-      <workItem from="1620638548241" duration="2481000" />
-      <workItem from="1620650507334" duration="8024000" />
-      <workItem from="1621347051603" duration="4824000" />
-      <workItem from="1621406089074" duration="1510000" />
-      <workItem from="1621508269547" duration="1350000" />
-      <workItem from="1621525853389" duration="7876000" />
-      <workItem from="1621602848690" duration="1437000" />
-      <workItem from="1621842782245" duration="22439000" />
-      <workItem from="1621928876789" duration="1984000" />
-      <workItem from="1622060769749" duration="602000" />
-      <workItem from="1622102315358" duration="15761000" />
-      <workItem from="1622190715947" duration="1968000" />
-      <workItem from="1622449265771" duration="15359000" />
-      <workItem from="1622554847748" duration="592000" />
-      <workItem from="1622633702357" duration="3520000" />
-      <workItem from="1622713169916" duration="1240000" />
-      <workItem from="1622965620643" duration="2000" />
-      <workItem from="1623158968726" duration="1206000" />
-      <workItem from="1623179131248" duration="1471000" />
-      <workItem from="1623236592045" duration="5739000" />
-      <workItem from="1623309747623" duration="1573000" />
-      <workItem from="1623402950403" duration="1178000" />
+      <updated>1623405441312</updated>
+      <workItem from="1623405442694" duration="411000" />
     </task>
-    <task id="LOCAL-00001" summary="addOrder">
-      <created>1621862093816</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1621862093816</updated>
-    </task>
-    <task id="LOCAL-00002" summary="addRegister">
-      <created>1621952404262</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1621952404262</updated>
-    </task>
-    <task id="LOCAL-00003" summary="addStatistic">
-      <created>1622132985731</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1622132985731</updated>
-    </task>
-    <task id="LOCAL-00004" summary="addSession">
-      <created>1622472777085</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1622472777085</updated>
-    </task>
-    <task id="LOCAL-00005" summary="addPort 808">
-      <created>1623179325804</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1623179325804</updated>
-    </task>
-    <task id="LOCAL-00006" summary="addPort 8085">
-      <created>1623183492506</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1623183492506</updated>
-    </task>
-    <task id="LOCAL-00007" summary="addPort 8085">
-      <created>1623236724067</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1623236724067</updated>
-    </task>
-    <task id="LOCAL-00008" summary="addPort 8085">
-      <created>1623239474691</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1623239474691</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add packaging war">
-      <created>1623243143523</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1623243143523</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add packaging war">
-      <created>1623243562400</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1623243562400</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add packaging war">
-      <created>1623244328715</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1623244328715</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add packaging war">
-      <created>1623244394946</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1623244394946</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add packaging war v2.0">
-      <created>1623264080655</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1623264080655</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add packaging war v3.0">
-      <created>1623264434513</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1623264434513</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add packaging war v3.0">
-      <created>1623403369702</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1623403369702</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add packaging war v3.0">
-      <created>1623403421706</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1623403421706</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add packaging war v3.0">
-      <created>1623403628170</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1623403628170</updated>
-    </task>
-    <task id="LOCAL-00018" summary="add packaging war v3.0">
-      <created>1623403929569</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1623403929569</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="addOrder" />
-    <MESSAGE value="addRegister" />
-    <MESSAGE value="addStatistic" />
-    <MESSAGE value="addSession" />
-    <MESSAGE value="addPort 808" />
-    <MESSAGE value="addPort 8085" />
-    <MESSAGE value="add packaging war" />
-    <MESSAGE value="add packaging war v2.0" />
-    <MESSAGE value="add packaging war v3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="add packaging war v3.0" />
   </component>
 </project>
